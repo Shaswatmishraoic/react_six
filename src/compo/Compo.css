@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(lightblue 20%, pink 60%, white);
+    height: 98vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  .navbar a{
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar a.active {
+    color: orange;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+  th{
+    text-align: left;
+  }
+  
+  th,
+  td {
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+  }
+  .Add{
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(121, 189, 166);
+    border: 1px solid black;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+  }
+  .Add1{
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(121, 189, 166);
+    border: 1px solid black;
+    position: absolute;
+    top: 480px;
+    right: 400px;
+  }
+  label{
+    color: rgb(142, 158, 24);
+    font-weight: bold;
+  }
+  .one{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+  }
+  .two{
+    position: absolute;
+    top: 200px;
+    right: 400px;
+  }
+  .three{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+  .four{
+    position: absolute;
+    top: 400px;
+    right: 400px;
+  }
+  .addstudent{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .edit {
+    text-decoration: none;
+    color: brown;
+  }
+  
+  .edit:visited {
+    color: brown;
+  }
+  .cancle{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    color: cornsilk;
+  }
+  .ctwo{
+    position: absolute;
+    top: 480px;
+    left: 500px;
+  }
+  .cone{
+    position: absolute;
+    top: 480px;
+    left: 500px;
+  }
